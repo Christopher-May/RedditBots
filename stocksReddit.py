@@ -26,7 +26,7 @@ if __name__ is '__main__':
     
     r = praw.Reddit(user_agent = 'Stocks Moniter by ChrisM')
     
-    r.login('jajakaha','1z=/1995')
+    r.login('jajakaha','shhhh')
     
     for c in praw.helpers.comment_stream(r,'chrisisgod'):
         check_condition(c)
